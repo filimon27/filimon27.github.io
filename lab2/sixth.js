@@ -1,6 +1,8 @@
 
 
-/*Question 6. The distance between two points. 
+/**
+Question 6. The distance between two points. 
+
 */
 function calcDistance(x1,y1,x2,y2){
     let number = ((x2-x1)**2)+ ((y2-y1)**2);

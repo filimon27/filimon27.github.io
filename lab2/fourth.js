@@ -1,4 +1,9 @@
   "use strict";
+  /**
+   * 
+   * 
+   * 
+   */
   
   let sum=0;
   let product=1;
