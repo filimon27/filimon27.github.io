@@ -44,12 +44,12 @@ function sum(arr){
  * @returns {number} sum of arr numbers
  */
 function multiply(arr){
-    let tot = 1;
+    let total = 1;
     for (const number of arr){
-        tot *= number;
+        total *= number;
     }
 
-    return tot;
+    return total;
 
 }
 /**
