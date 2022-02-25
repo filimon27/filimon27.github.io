@@ -25,7 +25,8 @@ module.exports = {
     }
   };
   {
-"env": {"browser": true, "node": true, "es6": true, "mocha": true}, "extends": "eslint:recommended",
+"env": {"browser": true, "node": true, "es6": true, "mocha": true},
+ "extends": "eslint:recommended",
 "parserOptions": {"sourceType": "script"},
 "rules": {
 "strict": ["error", "global"],

@@ -1,15 +1,15 @@
 "use strict";
 
-const assert  = require("assert");
+//const assert  = require("assert");
 // const { calcDistance } = require("./mochaFunctions.js");
- const functionModules = require("./mochaFunctions.js");
+ //const functionModules = require("./mochaFunctions.js");
 
-const isVowel = functionModules.isVowel;
-const compoundInterest = functionModules.compoundInterest;
-const computeSalesCommission = functionModules.computeSalesCommission;
-const sumDigit = functionModules.sumDigit;
-const multiDigit = functionModules.multiDigit;
-const calcDistance = functionModules.calcDistance;
+// const isVowel = functionModules.isVowel;
+// const compoundInterest = functionModules.compoundInterest;
+// const computeSalesCommission = functionModules.computeSalesCommission;
+// const sumDigit = functionModules.sumDigit;
+// const multiDigit = functionModules.multiDigit;
+// const calcDistance = functionModules.calcDistance;
 
 
 // unit test for sum digit
@@ -28,7 +28,7 @@ describe("sum the numbers in a digit", function(){
 
 describe("multiply the numbers in a  digit", function(){
     it("multipy 234 and get 24 ", function(){
-        assert.strictEqual(multiDigit(234), 6);
+        assert.strictEqual(multiDigit(234), 24);
     });
     it("multipy 102 and get 0", function(){
         assert.strictEqual(multiDigit(102),0);

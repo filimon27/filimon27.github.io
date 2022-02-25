@@ -1,6 +1,6 @@
 
 "use strict";
-module.exports = {isVowel, computeSalesCommission, compoundInterest,calcDistance,sumDigit,multiDigit}
+//module.exports = {isVowel, computeSalesCommission, compoundInterest,calcDistance,sumDigit,multiDigit}
 
 /**
 * 
