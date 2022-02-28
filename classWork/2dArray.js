@@ -3,19 +3,23 @@
 
 
   function addingArray(array){
-    let sum =0;
+    let sum;
+    let rowSum=[];
 for (let i = 0; i < array.length; i++) {
+             sum=0;
     for (let j = 0; j < array[i].length; j++) {
-        sum=array[i]+[j];
+        sum+=array[i][j];
+       
     }
-    
+      
+    rowSum.push(sum)
 }
-return sum;
+return rowSum;
 }
 
 let matrix = [ 
     [1, 2, 3], 
     [4, 5, 6],
     [7, 8, 9]];
-let outPut= addingArray(matrix)
-console.log("The sum is  " + outPut);
+
+console.log("The sum is  " +  addingArray(matrix));

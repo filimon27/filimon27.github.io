@@ -35,16 +35,51 @@ Input                             Ddefining Table processing                    
 /**
  * 
  */
-const scores=[10,20,30,40,50]
-function findAverage(array){
-       let sum=0;
-       for(let i=0;i<array.length;i++){
-           sum=sum+array[i];
-       }
-       return (sum/array.length);
-   }
-let output= findAverage(scores);
-console.log(output)
+// const scores=[10,20,30,40,50]
+// function findAverage(array){
+//        let sum=0;
+//        for(let i=0;i<array.length;i++){
+//            sum=sum+array[i];
+//        }
+//        return (sum/array.length);
+//    }
+// let output= findAverage(scores);
+// console.log(output)
+
+
+"use strict";
+
+const assert = require("assert");
+
+/**
+ * 
+ * @param {String} n 
+ * @returns {Boolean} retutrns true or false
+ */
+    function isVowel(n){
+        return ["a","e","i","o","u"].includes(n);
+    }
+
+
+describe("checks if the input string is vowel or not ", function () {
+
+    it( "checks a is vowel", function () {
+
+        assert.strictEqual(isVowel("a"), true);
+
+    });
+
+    it(" checks .  is not vowel", function () {
+
+        assert.strictEqual(isVowel("."), false)
+    });
+    it("checks d  is not vowel", function () {
+
+        assert.strictEqual(isVowel("d"), false)
+    });
+
+
+});
 
 
 
