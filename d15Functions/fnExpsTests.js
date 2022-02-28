@@ -41,9 +41,9 @@ describe("times100", function () {
 
     /* 3.	Write a function, myMap, that takes an array and a function and returns a new array that has the function applied to each element of the input array. */
     describe("myMap", function () {
-        const testArray = [-10, 0, 10, 20];
+        const testArray = [5, 0, 10, 20];
         it("tests myMap on double", function () {
-            assert.deepStrictEqual(myMap(testArray, double), [-20, 0, 20, 40]);
+            assert.deepStrictEqual(myMap(testArray, double), [10, 0, 20, 40]);
         });
         it("tests myMap on times100", function () {
             assert.deepStrictEqual(myMap(testArray, times100), [-1000, 0, 1000, 2000]);
