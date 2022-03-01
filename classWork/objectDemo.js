@@ -40,29 +40,6 @@ let scores=[];
 
 }
 
-/**
- * 
- * const numbers = { one: 1,
-two: 22, three: 333, four: 444
-}
-const properties = ["one", "two", "three", "four"];
- * 
- * 
- * 
- * 
- * 
- */
-const numbers = { one: 1,
-    two: 22, three: 333, four: 444
-    }
-    const properties = ["one", "two", "three", "four"]
-         
-      for(let i=0;i<properties.length;i++){
-         
-          console.log(i)
-      }
-
-
 
  console.log(gradeQuiz(quiz,[3,1,2,4]));
 

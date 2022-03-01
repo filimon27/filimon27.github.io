@@ -154,3 +154,4 @@ function addBookToLibrary(){
   document.getElementById("displayArea").innerHTML = newBook.title + "\n" + newBook.author+"\n" + newBook.libraryID;
 
 }
+
